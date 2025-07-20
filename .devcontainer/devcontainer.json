@@ -1,0 +1,14 @@
+{
+  "name": "Slidev Workspace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/pnpm:1": {}
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3030],
+  "customizations": {
+    "vscode": {
+      "extensions": ["antfu.slidev"]
+    }
+  }
+}
